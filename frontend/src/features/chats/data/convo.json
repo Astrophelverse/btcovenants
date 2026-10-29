@@ -1,0 +1,81 @@
+{
+  "conversations": [
+    {
+      "id": "conv-satoshi",
+      "profile": "",
+      "username": "satoshi_dev",
+      "fullName": "Satoshi Nakamoto",
+      "title": "Lightning Core Architect",
+      "messages": [
+        {
+          "sender": "You",
+          "message": "Hey Satoshi, I just created the 2-of-3 Taproot deal ticket for the Lightning escrow coordinator.",
+          "timestamp": "2026-10-29T14:15:15"
+        },
+        {
+          "sender": "Satoshi",
+          "message": "Looking over the BIP341 script trees now. Everything looks solid.",
+          "timestamp": "2026-10-29T14:18:30"
+        },
+        {
+          "sender": "Satoshi",
+          "message": "I have digitally signed with my Schnorr private key. Once on-chain funding confirms, I will initiate sprint 1.",
+          "timestamp": "2026-10-29T14:22:10"
+        },
+        {
+          "sender": "You",
+          "message": "Deposit confirmed! 0.04744333 BTC is locked in the Taproot multisig. Let me know when the PR is ready.",
+          "timestamp": "2026-10-29T14:25:00"
+        },
+        {
+          "sender": "Satoshi",
+          "message": "PR is ready and tested on Regtest. Marked as done on my end!",
+          "timestamp": "2026-10-29T17:10:00"
+        }
+      ]
+    },
+    {
+      "id": "conv-alice",
+      "profile": "",
+      "username": "alice_buyer",
+      "fullName": "Alice Vance",
+      "title": "Bitcoin Protocol Lead",
+      "messages": [
+        {
+          "sender": "Alice",
+          "message": "Hi, please review the Coldcard HSM module when you have a chance.",
+          "timestamp": "2026-10-29T12:00:00"
+        },
+        {
+          "sender": "You",
+          "message": "Running the air-gapped test suite right now. The PSBT parsing is smooth.",
+          "timestamp": "2026-10-29T12:30:00"
+        },
+        {
+          "sender": "Alice",
+          "message": "Awesome. The DLC price lock guarantees $1,250 regardless of price action.",
+          "timestamp": "2026-10-29T12:45:00"
+        }
+      ]
+    },
+    {
+      "id": "conv-arbiter",
+      "profile": "",
+      "username": "btcovenants_support",
+      "fullName": "BTCovenants Oracle Arbiter",
+      "title": "Protocol Support Quorum Key",
+      "messages": [
+        {
+          "sender": "Support",
+          "message": "Protocol Notice: 2-of-3 Taproot covenant coordinator is operating with 100% uptime.",
+          "timestamp": "2026-10-29T08:00:00"
+        },
+        {
+          "sender": "You",
+          "message": "Confirmed. No disputes active across network.",
+          "timestamp": "2026-10-29T08:15:00"
+        }
+      ]
+    }
+  ]
+}

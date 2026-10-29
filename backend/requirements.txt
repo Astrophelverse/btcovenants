@@ -1,0 +1,23 @@
+# Web framework
+fastapi==0.115.0
+uvicorn[standard]==0.30.6
+
+# Auth & Security
+python-jose[cryptography]==3.3.0
+passlib[bcrypt]==1.7.4
+python-multipart==0.0.12
+
+# Bitcoin
+bitcoinlib==0.6.15
+python-bitcoinlib==0.12.2
+
+# Signing / Crypto
+cryptography==43.0.1
+base58==2.1.1
+
+# HTTP / APIs
+httpx==0.27.2
+
+# Utils
+python-dotenv==1.0.1
+pydantic==2.9.2
